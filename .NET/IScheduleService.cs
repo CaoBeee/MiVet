@@ -7,12 +7,6 @@ namespace Sabio.Services.Interfaces
 {
     public interface IScheduleService
     {
-        int Add(ScheduleAddRequest model, int userId);
-        Schedule Get(int id);
-        Paged<Schedule> Pagination(int pageIndex, int pageSize);
-        void Update(ScheduleUpdateRequest model, int userId);
-        void Delete(int id);
-
         #region -- Availability
 
         ScheduleAvailability GetAvailabilityById(int id);
