@@ -1,0 +1,54 @@
+.schAvailFormFont {
+  font-family: sans-serif;
+}
+
+.schedule-has-error {
+  color: red;
+}
+
+.schModalCenter {
+  text-align: center;
+}
+
+.schModalHeader {
+  text-align: center;
+}
+
+.availabilityFormBtnSize {
+  font-size: 13px;
+  padding: 8px;
+  margin: 2px;
+}
+
+.availFormIconSize {
+  padding: 1px;
+}
+
+.availbilitySwalBtnConfirm {
+  color: #fff;
+  background-color: #754ffe;
+  font-weight: 600;
+  border-color: #754ffe;
+  border-radius: 0.25rem;
+}
+
+.availbilitySwalBtnConfirm:hover {
+  color: #fff;
+  background-color: #6343d8;
+  border-color: #5e3fcb;
+}
+
+.availbilitySwalBtnCancel {
+  color: #79758f;
+  background-color: white;
+  font-weight: 600;
+  border-color: #79758f;
+  border-radius: 0.25rem;
+}
+
+.availbilitySwalBtnCancel:hover {
+  color: #fff;
+  background-color: #79758f;
+  border-color: #79758f;
+  border-radius: 0.25rem;
+}
